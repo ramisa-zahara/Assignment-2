@@ -9,61 +9,448 @@
   </head>
   <body class="inter-font bg-color">
     <header class="gradient-background">
-      <nav class="navbar display-flex">
+      <nav class="navbar display-flex margin-inline">
         <h3 class="brand">Fitness</h3>
         <ul class="nav-links display-flex">
-          <li class="nav-items">
-            <button class="home-btn">
-              <a href="" class="nav-link">Home</a>
-            </button>
+          <li class="nav-items home-btn">
+            <a href="" class="nav-link">Home</a>
           </li>
           <li class="nav-items">
-            <button class="btn"><a href="" class="nav-link">Service</a></button>
+            <a href="" class="nav-link">Service</a>
           </li>
           <li class="nav-items">
-            <button class="btn"><a href="" class="nav-link">Contact</a></button>
+            <a href="" class="nav-link">Contact</a>
           </li>
           <li class="nav-items">
-            <button class="btn"><a href="" class="nav-link">About</a></button>
+            <a href="" class="nav-link">About</a>
           </li>
         </ul>
+        <img
+          src="images/hamburger.png"
+          width="24"
+          height="24"
+          alt="Navigation Links"
+          id="hamburg-icon"
+        />
       </nav>
       <!-- banner -->
-      <div class="banner display-flex gradient-background">
+      <div class="banner display-flex gradient margin-inline">
         <div class="banner-content">
           <h1 class="banner-title">
             Get body in <br />
-            <span id="shape">shape</span> & stay healthy
+            <span id="shape">shape</span> & stay <br />
+            healthy
           </h1>
           <p class="banner-description light-color">
             A huge selection of health and fitness content, healthy recipes and
             transformation stories to help you get fit and stay fit!
           </p>
           <div class="header-btns">
-            <button class="btn-primary">Join Club Now!</button>
+            <button class="btn-primary">
+              Join <span class="hide-on-small-screen">Club</span> Now!
+            </button>
             <button class="btn-secondary">Download App</button>
           </div>
         </div>
-        <div>
+        <div class="hero-image">
           <img class="banner-img" src="images/Images 2.png" />
           <button id="video-badge" class="btn-3">
-            <div class="golla"></div>
+            <div class="golla">
+              <img src="/images/play-button.png" width="15" height="20" />
+            </div>
             <div class="video-des">
               <span id="video-no"> 350+ </span>
               <span id="video" class="light-color">Video tutorial</span>
             </div>
           </button>
           <button id="video-badge2" class="btn-3">
-            <div class="video-des2">
+            <div class="video-des">
               <span id="video-no2"> 500+ </span>
-              <span id="video" class="light-color">Free Workout Videos</span>
+              <span id="video" class="light-color small-video-des"
+                >Free Workout Videos</span
+              >
             </div>
           </button>
         </div>
       </div>
     </header>
     <main>
-      <section>jcskkhcjdhc</section>
+      <section
+        class="change-habit-section display-flex flex-column align-center justify-center margin-inline margin-inline-tab gap-58"
+      >
+        <div
+          class="ch-title-sec display-flex flex-column align-center justify-center gap-14"
+        >
+          <span class="section-title">Change Your Habit</span>
+          <span
+            class="light-color text-align-center max-w-on-medium-screen-475 font-size-14"
+            >We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.</span
+          >
+        </div>
+        <div class="exercise-grid align-center gap-40">
+          <div
+            class="display-flex flex-column justify-center gap-30 align-center justify-center exercise-card"
+          >
+            <img
+              src="/images/image 3.png"
+              alt=""
+              width="180"
+              height="180"
+              class="object-contain border-circle exercise-border"
+            />
+            <div
+              class="display-flex flex-column gap-6 align-center justify-center text-align-center"
+            >
+              <span class="bold-title-text">Movement</span>
+              <span class="light-color font-size-14"
+                >We believe fitness should be accessible to everyone</span
+              >
+            </div>
+          </div>
+          <div
+            class="display-flex flex-column justify-center gap-30 align-center justify-center exercise-card"
+          >
+            <img
+              src="/images/image 2.png"
+              alt=""
+              width="180"
+              height="180"
+              class="object-contain border-circle exercise-border"
+            />
+            <div
+              class="display-flex flex-column gap-6 align-center justify-center text-align-center"
+            >
+              <span class="bold-title-text">Time</span>
+              <span class="light-color font-size-14"
+                >We believe fitness should be accessible to everyone</span
+              >
+            </div>
+          </div>
+          <div
+            class="display-flex flex-column justify-center gap-30 align-center justify-center exercise-card"
+          >
+            <img
+              src="/images/image 4.png"
+              alt=""
+              width="180"
+              height="180"
+              class="object-contain border-circle exercise-border"
+            />
+            <div
+              class="display-flex flex-column gap-6 align-center justify-center text-align-center"
+            >
+              <span class="bold-title-text">Practice</span>
+              <span class="light-color font-size-14"
+                >We believe fitness should be accessible to everyone</span
+              >
+            </div>
+          </div>
+          <div
+            class="display-flex flex-column justify-center gap-30 align-center justify-center exercise-card"
+          >
+            <img
+              src="/images/image 5.png"
+              alt=""
+              width="180"
+              height="180"
+              class="object-contain border-circle exercise-border"
+            />
+            <div
+              class="display-flex flex-column gap-6 align-center justify-center text-align-center"
+            >
+              <span class="bold-title-text">Weight Loss</span>
+              <span class="light-color font-size-14"
+                >We believe fitness should be accessible to everyone</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="display-flex margin-inline run-section">
+        <div class="display-flex flex-column gap-30 run-section-desc">
+          <div class="display-flex flex-column gap-14">
+            <span class="section-title">Run an Extra Mile Easily</span>
+            <span class="font-size-14 light-color line-height-24"
+              >We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym. With hundreds of
+              professional workouts.</span
+            >
+          </div>
+          <button class="btn-primary">Join Now</button>
+        </div>
+        <div>
+          <img src="/images/run.jpg" alt="" width="365px" class="run-img" />
+        </div>
+      </section>
+
+      <section
+        class="bmi-section display-flex align-center justify-center flex-column gap-58"
+      >
+        <div
+          class="bmi-title-sec display-flex flex-column gap-14 line-height-24"
+        >
+          <span class="section-title">BMI Calculator</span>
+          <span class="light-color font-size-14"
+            >We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.</span
+          >
+        </div>
+
+        <div class="display-flex bmi-main-sec">
+          <div class="bmi-chart">
+            <span class="secondary-section-title">BMI Calculator Chart</span>
+            <table>
+              <tr>
+                <th>BMI</th>
+                <th>Weight Status</th>
+              </tr>
+              <tr>
+                <td>Below 18.5</td>
+                <td>Underweight</td>
+              </tr>
+              <tr>
+                <td>18.5 - 24.9</td>
+                <td>Healthy</td>
+              </tr>
+              <tr>
+                <td>25.0 - 29.9</td>
+                <td>Overweight</td>
+              </tr>
+              <tr>
+                <td>30.0 - and Above</td>
+                <td>Obese</td>
+              </tr>
+            </table>
+          </div>
+          <div class="bmi-calculator display-flex flex-column gap-30">
+            <div class="display-flex flex-column gap-14">
+              <span class="secondary-section-title">Calculate your BMI</span>
+              <span class="font-size-14 line-height-24 light-color"
+                >We believe fitness should be accessible to everyone,
+                everywhere, regardless of income or access to a gym.</span
+              >
+            </div>
+            <div class="bmi-calculator-inputs display-flex flex-column gap-14">
+              <div class="bmi-calculator-input-row display-flex gap-14">
+                <input
+                  type="text"
+                  placeholder="Height/cm"
+                  class="bmi-calculator-input"
+                />
+                <input
+                  type="text"
+                  placeholder="Height/cm"
+                  class="bmi-calculator-input"
+                />
+              </div>
+              <div class="bmi-calculator-input-row display-flex gap-14">
+                <input
+                  type="text"
+                  placeholder="Age"
+                  class="bmi-calculator-input"
+                />
+                <div
+                  class="custom-select display-flex align-center bmi-calculator-input"
+                >
+                  <span>Sex</span>
+                  <img
+                    class="down-arrow"
+                    src="/images/chevron-down.png"
+                    width="24"
+                    height="24"
+                    alt="Dropdown"
+                  />
+                </div>
+              </div>
+              <div
+                class="bmi-calculator-input-row custom-select display-flex align-center"
+              >
+                <span>Select an activity factor</span>
+                <img
+                  class="down-arrow"
+                  src="/images/chevron-down.png"
+                  width="24"
+                  height="24"
+                  alt="Dropdown"
+                />
+              </div>
+            </div>
+            <button class="btn-primary">Calculate</button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="mot-section display-flex flex-column align-center justify-center gap-58"
+      >
+        <div
+          class="mot-title-sec display-flex flex-column gap-14 line-height-24"
+        >
+          <span class="section-title text-align-center">Meet Our Team</span>
+          <span class="light-color font-size-14 text-align-center"
+            >We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.</span
+          >
+        </div>
+
+        <div class="trainer-gallery">
+          <div class="trainer-card position-relative hide-on-small-screen">
+            <img src="/images/trainer1.png" alt="" class="trainer-img" />
+            <div
+              class="trainer-desc position-absolute display-flex flex-column"
+            >
+              <span class="bold-title-text">Jerome Bell</span
+              ><span class="light-color">Trainer</span>
+            </div>
+          </div>
+          <div class="trainer-card position-relative">
+            <img src="/images/trainer2.png" alt="" class="trainer-img" />
+            <div
+              class="trainer-desc position-absolute display-flex flex-column"
+            >
+              <span class="bold-title-text">Cameron Williamson</span
+              ><span class="light-color">Trainer</span>
+            </div>
+          </div>
+          <div class="trainer-card position-relative">
+            <img src="/images/trainer3.png" alt="" class="trainer-img" />
+            <div
+              class="trainer-desc position-absolute display-flex flex-column"
+            >
+              <span class="bold-title-text">Darrell Steward</span
+              ><span class="light-color">Trainer</span>
+            </div>
+          </div>
+          <div class="trainer-card position-relative hide-on-small-screen">
+            <img src="/images/trainer4.png" alt="" class="trainer-img" />
+            <div
+              class="trainer-desc position-absolute display-flex flex-column"
+            >
+              <span class="bold-title-text">Dianne Russell</span
+              ><span class="light-color">Trainer</span>
+            </div>
+          </div>
+          <div class="trainer-card position-relative">
+            <img src="/images/trainer5.png" alt="" class="trainer-img" />
+            <div
+              class="trainer-desc position-absolute display-flex flex-column"
+            >
+              <span class="bold-title-text">Cody Fisher</span
+              ><span class="light-color">Trainer</span>
+            </div>
+          </div>
+          <div class="trainer-card position-relative">
+            <img src="/images/trainer6.png" alt="" class="trainer-img" />
+            <div
+              class="trainer-desc position-absolute display-flex flex-column"
+            >
+              <span class="bold-title-text">Theresa Webb</span
+              ><span class="light-color">Trainer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="newsletter margin-inline display-flex justify-space-between gap-20"
+      >
+        <div class="newsletter-title-sec display-flex flex-column gap-14">
+          <span class="section-title"
+            >Join Our <span class="italic primary-color">Newsletter</span></span
+          >
+          <span class="font-size-14 line-height-24 light-color"
+            >Stay ahead in your fitness journey by subscribing to our
+            newsletter! Each week, you'll receive content designed to keep you
+            motivated and informed. Join our fitness community today and take a
+            step towards a healthier, stronger you!</span
+          >
+        </div>
+        <div class="newsletter-subscribe-sec display-flex flex-column gap-30">
+          <div
+            class="newsletter-subscribe-inputs display-flex flex-column gap-14"
+          >
+            <div class="display-flex gap-14">
+              <div class="display-flex flex-column gap-6">
+                <label class="font-size-14"> First Name</label>
+                <input type="text" placeholder="First name" class="" />
+              </div>
+              <div class="display-flex flex-column gap-6">
+                <label class="font-size-14"> Last Name</label>
+                <input type="text" placeholder="Last name" class="" />
+              </div>
+            </div>
+            <div class="display-flex gap-14">
+              <div class="display-flex flex-column gap-6">
+                <label class="font-size-14"> Email</label>
+                <input type="email" placeholder="Email" class="" />
+              </div>
+            </div>
+          </div>
+          <button class="btn-primary">Subscribe</button>
+        </div>
+      </section>
     </main>
+
+    <footer class="display-flex flex-column">
+      <div
+        class="footer-inner-container margin-inline display-flex justify-space-between"
+      >
+        <div class="display-flex flex-column gap-20">
+          <span class="brand">Fitness</span>
+          <span class="light-color font-size-14 line-height-24"
+            >We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts.</span
+          >
+        </div>
+
+        <div
+          class="quick-links display-flex align-center justify-space-between"
+        >
+          <div class="display-flex flex-column gap-40">
+            <span class="secondary-section-title">Get Started</span>
+            <div class="display-flex flex-column gap-20">
+              <span class="light-color font-size-24 line-height-120p"
+                >Service</span
+              >
+              <span class="light-color font-size-24 line-height-120p"
+                >Contact Us</span
+              >
+              <span class="light-color font-size-24 line-height-120p"
+                >Affiliate Program</span
+              >
+              <span class="light-color font-size-24 line-height-120p"
+                >About Us</span
+              >
+            </div>
+          </div>
+          <div class="display-flex flex-column gap-40">
+            <span class="secondary-section-title">Get Started</span>
+            <div class="display-flex flex-column gap-20">
+              <span class="light-color font-size-24 line-height-120p"
+                >Fitness</span
+              >
+              <span class="light-color font-size-24 line-height-120p"
+                >Platform</span
+              >
+              <span class="light-color font-size-24 line-height-120p"
+                >Workout Library</span
+              >
+              <span class="light-color font-size-24 line-height-120p"
+                >App Design</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="margin-inline" />
+
+      <span class="copyright font-size-20 light-color"
+        >All right reserved @Fitness 2024</span
+      >
+    </footer>
   </body>
 </html>
